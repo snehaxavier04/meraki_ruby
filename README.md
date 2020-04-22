@@ -22,8 +22,6 @@ FYI, The repo that has been given is not able to deploy using docker due to belo
 1.	There is no trace of application logs. 
 2.	Routing is not defined properly. 
 
-
-
 NGINX to build
 
-``` docker run --name mynginx -P -d NGINX```
+``` docker build -t Dockerfile.rails```
