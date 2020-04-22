@@ -1,27 +1,29 @@
-# README
+I have deployed a new Docker image with the below endpoints and versions which was used in the image.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+FRAMEWORK USED : 
+•	Docker: V19.03.0
+•	Ruby: 2.5.1
+•	Postgresql: 11
+•	SQLite: 3.1
+•	Nginx
+ 
 
-Things you may want to cover:
 
-* Ruby version
+I created a sample project with endpoint as /welcome/index using postgresql DB
 
-* System dependencies
+ 
+GIT LINKS: 
 
-* Configuration
+Please find the source code in below GIT url:
+https://github.com/snehaxavier04/meraki_ruby
 
-* Database creation
+FYI, The repo that has been given is not able to deploy using docker due to below reasons: 
 
-* Database initialization
+1.	There is no trace of application logs. 
+2.	Routing is not defined properly. 
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
 NGINX to build
 
 ``` docker run --name mynginx -P -d NGINX```
